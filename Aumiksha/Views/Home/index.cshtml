@@ -1,0 +1,545 @@
+﻿@model IEnumerable<Aumiksha.Models.form_T>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheet File  -->
+    <link rel="stylesheet" href="~/css/Style.css">
+<link rel="icon" href="~/images/logo.png" type="image/x-icon">
+    <title>Home | Aumiksha</title>
+</head>
+
+<body>
+    <!-- Navigation  -->
+    <nav>
+        <div class="n-col1">
+            <img src="~/images/logo.png" alt="">
+        </div>
+        <div class="n-col2">
+            <a class="active" href="#home" onclick="setActive(this)">Home</a>
+            <a href="#services" onclick="setActive(this)">Services</a>
+            <a href="#about" onclick="setActive(this)">About Us</a>
+            <a href="#feedback" onclick="setActive(this)">Feedback</a>
+            <a class="btn" href="#contact">Contact Us</a>
+        </div>
+    </nav>
+    <!-- Phone Navigation  -->
+    <div class="m-header">
+        <nav class="navbar">
+            <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
+            <h2>Aumiksha</h2>
+            <div class="nav-menu">
+                <button class="nav-close" aria-label="Close menu">&times;</button>
+                <ul class="nav-list">
+                    <li>
+                        <a class="active" href="#home" onclick="setActive(this)">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services" onclick="setActive(this)">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about" onclick="setActive(this)">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#feedback" onclick="setActive(this)">Feedback</a>
+                    </li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Hero Section  -->
+    <div class="hero" id="home">
+        <div class="hero-col1" data-aos="fade-right">
+            <p class="hp">DIGITAL PLATFORM</p>
+            <h1>Aumiksha - Empowering Your Digital Presence, Elevating Your Success</h1>
+            <p class="hp2">
+                Exceptional minds, global impact: Delivering remarkable digital solutions to clients
+                worldwide
+            </p>
+            <a class="btn" href="#gt"><i class="fa-solid fa-phone"></i> Book A Call</a>
+        </div>
+        <div class="hero-col2">
+            <img src="~/images/Asset 1.png" alt="" data-aos="fade-up">
+        </div>
+    </div>
+    <!-- Services -->
+    <div class="services" data-aos="fade-up">
+        <div class="s-box" data-aos="fade-up">
+            <img src="~/images/image.png" alt="">
+            <h3>SEO: Search Engine Optimization</h3>
+            <p>
+                In today’s digital landscape, visibility is key to business success. Our SEO optimization services are
+                designed to enhance your online presence, drive organic traffic, and ultimately boost your sales.
+            </p>
+        </div>
+        <div class="s-box" data-aos="fade-up">
+            <img src="~/images/image-1.png" alt="">
+            <h3>Social Media Management</h3>
+            <p>
+                In a world where social media is a powerful marketing tool, having a strong online presence is essential.
+                Our social media management services are designed to enhance your brand visibility, engage your
+                audience, and drive meaningful interactions.
+            </p>
+        </div>
+        <div class="s-box" data-aos="fade-up">
+            <img src="~/images/image-2.png" alt="">
+            <h3>Meta Ads Google Ads Experts</h3>
+            <p>
+                Let us help you harness the power of Meta and Google Ads to drive your business forward. Contact us today
+                to discuss how our expertise can elevate your advertising efforts!
+                Our team of experts specializes in Meta Ads.
+            </p>
+        </div>
+        <div class="s-box" data-aos="fade-up">
+            <img src="~/images/image-6.png" alt="">
+            <h3>Eye - Catching : Website Design & Devlopment</h3>
+            <p>
+                In a digital-first world, a well-designed website is crucial for making a strong first impression and
+                driving business growth. Our website design and development services blend creativity with
+                functionality.
+            </p>
+        </div>
+    </div>
+    <!-- Why Choose us  -->
+    <div class="w-section">
+        <h1 data-aos="fade-right">WHY CHOOSE US</h1>
+        <p data-aos="fade-right">Why Choose Us for Digital Marketing?</p>
+        <p data-aos="fade-right">
+            In today’s digital age, businesses need a reliable partner to navigate the complex
+            world of online marketing.
+            At Aumiksha we pride ourselves on being that partner. Here’s why
+        </p>
+        <div class="w-div">
+            <div class="div1">
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>
+                        With over three years of experience, our dedicated team is committed to delivering exceptional
+                        results. We specialize in enhancing your online presence through organic ratings and reviews.
+                    </p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>
+                        Personalized Approach: We take the time to understand your unique business needs and goals,
+                        tailoring our strategies to meet them.
+                    </p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>
+                        Results-Driven: Our focus is on delivering measurable results that drive real growth for your
+                        business.
+                    </p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>
+                        We Have A Experience Of More Then Of 3 Year Our Team Work with Full dedication And Give Results
+                    </p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>
+                        We pride ourselves on ethical practices and do not utilize bots. Our extensive team of over
+                        10,000 professionals works diligently to ensure that your brand receives genuine feedback and
+                        support.
+                    </p>
+                </div>
+                <h4 data-aos="fade-right">What sets us apart from other agencies?</h4>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Personalized attention and care</p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Proven track record of success </p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Transparent and honest communication</p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Continuous learning and improvement</p>
+                </div>
+                <div class="a" data-aos="fade-right">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Proper Work On Time No Delay</p>
+                </div>
+                <h4 data-aos="fade-right">
+                    Choose Aumiksha for your digital marketing needs and experience the difference
+                    for yourself.
+                </h4>
+            </div>
+            <div class="div1">
+                <img data-aos="zoom-in-up" src="~/images/aa.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <!-- All Services  -->
+    <div class="a-services" id="services">
+        <p class="hp" data-aos="fade-right">WHAT WE DO</p>
+        <h1 data-aos="fade-right">Top-Rated Services For Our Clients</h1>
+        <p data-aos="fade-right">
+            Expertly crafted solutions tailored to meet your unique needs. Delivering top-rated
+            services that exceed expectations and drive business success.
+        </p>
+        <div class="card-w">
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_reviews_lp8w.png"
+                     alt="" srcset="">
+                <h3>Boost : Review & Rating Organically</h3>
+                <p>
+                    Boost your brand’s credibility with our organic review and rating strategies. Enhance customer trust
+                    and drive sales through authentic feedback!
+                </p>
+            </div>
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_Web_search_re_efla.png" alt="" srcset="">
+                <h3>SEO : Search Engines Optimization</h3>
+                <p>
+                    Boost your online visibility with our SEO services—effective strategies to optimize your site and
+                    improve rankings on search engines!
+                </p>
+            </div>
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_buffer_wq43.png" alt="" srcset="">
+                <h3>Social Media Management</h3>
+                <p>
+                    Enhance your brand’s online presence with our social media management services—engaging content,
+                    community interaction, and targeted strategies for growth!
+                </p>
+            </div>
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_online_ad_re_ol62.png" alt="" srcset="">
+                <h3>ADS : Target Right Profit Tonight </h3>
+                <p>
+                    Unlock immediate results with our expert ad campaigns tailored to reach your ideal customers. Boost
+                    conversions and drive sales now!
+                </p>
+            </div>
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_Business_deal_re_up4u.png" alt="" srcset="">
+                <h3>Business Process Automation (BPA)</h3>
+                <p>
+                    Streamline your operations with our Business Process Automation services—boost efficiency, reduce
+                    errors, and free up time for strategic growth!
+                </p>
+            </div>
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_Social_influencer_re_beim.png" alt="" srcset="">
+                <h3>Influencer, Video & Social Media marketing</h3>
+                <p>
+                    Boost Your Website Ranking And online visibility with expert SEO services.Drive more traffic and
+                    sales to your business.
+                </p>
+            </div>
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_Icon_design_re_9web.png" alt="" srcset="">
+                <h3>Graphic Design - Creative And Unique Design</h3>
+                <p>
+                    Elevate your brand with our graphic design services—creative and unique designs that capture
+                    attention, convey your message, and inspire action!
+                </p>
+            </div>
+            <div class="card" data-aos="zoom-in-up">
+                <img src="~/images/undraw_Web_development_0l6v.png" alt="" srcset="">
+                <h3>Website Design & Development</h3>
+                <p>
+                    Transform your online presence with our website design and development services—custom, responsive
+                    sites that engage users and drive conversions!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- About Us  -->
+    <div class="w-section" id="about">
+        <h1 data-aos="fade-right">ABOUT US</h1>
+        <p data-aos="fade-right">
+            Welcome To Aumiksha Your Trusted Partner In Digital Marketing. With Over 3 Years Of
+            Experience And A Proven Track Record Of Success, We’ve Helped Businesses Like Yours Thrive In The Online
+            Landscape.
+        </p>
+        <div class="w-div about">
+            <div class="div1">
+                <div class="a">
+                    <h2 data-aos="fade-up"> Our Achievements Speak For Themselves</h2>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>
+                        50,000+ Reviews Generated Across Play Store, Google Maps And Websites - 10,000+ Strong Team Of
+                        Reviewers To Ensure Accurate And Up-To-Date Online Presence.
+                    </p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>SEO (Search Engine Optimization) To Boost Your Search Engine Rankings</p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Video Marketing To Tell Your Brand's Story</p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Influencer Marketing To Reach New Audiences</p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Graphic Design To Capture Attention</p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Website Development And Design To Drive Conversions</p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Google Maps Reviews Management</p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Play Store Review and Rating Optimization</p>
+                </div>
+                <div class="a" data-aos="fade-up">
+                    <i class="fa-solid fa-check"></i>
+                    <p>App Install Growth</p>
+                </div>
+            </div>
+            <div class="div1">
+                <img data-aos="zoom-in-up" src="~/images/about.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <!-- How to Start  -->
+    <div class="hts">
+        <div class="hts1">
+            <h1>How To Start?</h1>
+            <div class="d1">
+                <p class="num">1</p>
+                <p class="sum">
+                    Plan Your Growth <br> <span>
+                        Your Business, Your Dreams. Our Strategy, Our Plan. Together,
+                        Let's Make Them a Reality.
+                    </span>
+                </p>
+            </div>
+            <div class="d1">
+                <p class="num">2</p>
+                <p class="sum">
+                    Handover The Project <br> <span>
+                        Empower your vision: handover the project to us, and
+                        watch your ideas transform into reality with seamless execution and dedication!
+                    </span>
+                </p>
+            </div>
+            <div class="d1">
+                <p class="num">3</p>
+                <p class="sum">
+                    Count The Profit <br> <span>
+                        Count the profit: measure success not just in numbers, but in
+                        the impact and value we create together!
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="hts1 n">
+            <img src="~/images/undraw_In_the_office_re_jtgc.png" alt="">
+        </div>
+    </div>
+    <!-- Feedback  -->
+    <div class="slider" data-aos="fade-up" data-aos-anchor-placement="top-center" id="feedback">
+        <p class="hp" data-aos="flip-left">VALUABLE FEEDBACKS</p>
+        <h1>What Our Clients Says</h1>
+        <div class="slide-track">
+            @foreach (var data in Model)
+            {
+                <div class="slide">
+                    <h2>@data.name</h2>
+             @*    <p>@data.email</p> *@
+                <p>
+                    @data.query
+                </p>
+            </div>
+            }
+           
+        </div>
+    </div>
+    <div id="gt" class="f-btn"><button type="button" class="btn-f" href="">Get in Touch</button></div>
+    <div class="modal" id="feedbackModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Contact Us</h2>
+            <form  action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="048066b4-c56a-4860-a7c0-3766f3dccfcb">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required name="name">
+
+                 <label for="name">Whatsapp Number:</label>
+                <input type="tel" id="name" required name="mobile">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required name="email">
+
+                <label for="email">Budget:</label>
+                <input type="email" id="email" required name="budget">
+
+                <label for="email">Your Website:</label>
+                <input type="email" id="email" required name="Website">
+
+                <label for="feedback">Tell us about your project:</label>
+                <textarea id="feedback" placeholder="Write in 30 Words Only" maxlength="250" name="About Project"></textarea>
+
+                <button class="btn-f" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- Contact Form  -->
+    <div class="contact" id="contact">
+        <div class="con1">
+            <img data-aos="zoom-in-up" src="~/images/cont.jpg" alt="">
+        </div>
+        <div class="con2" data-aos="zoom-in-up">
+            <h1>Give Your Feedback</h1>
+            <p>Your feedback fuels our growth; we appreciate your insights!</p>
+            <form asp-action="index" method="post">
+                <input type="text" placeholder="Your Name" name="name">
+                <input type="email" placeholder="Your Email" name="email">
+                <input type="tel" placeholder="Your Number" name="number">
+                <textarea type="text" placeholder="Write Your Feedback" rows="7" name="query" maxlength="250"></textarea>
+                <button class="btn-f">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer data-aos="fade-up">
+        <div class="dvi1">
+            <h2>Aumiksha</h2>
+            <p class="pt">
+                Digital experts, your success partners.Exceptional minds, global impact Delivering remarkable
+                digital solutions to clients worldwide
+            </p>
+        </div>
+        <div class="dvi1">
+            <h4>Customer Support</h4>
+            <p><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/aumiksha?igsh=MXZrY3JlYXo1dGg4YQ=="> Instagram</a></p>
+        @*     <p><i class="fa-brands fa-whatsapp"></i> <a href="">Whatsapp</a></p> *@
+            <p><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/profile.php?id=61566359489158">Facebook</a></p>
+            <p><i class="fa-brands fa-linkedin"></i> <a href="">Linkdin</a></p>
+        </div>
+        <div class="dvi1 n">
+            <h4>Seo : Search Engine Optimization</h4>
+            <p><i class="fa-solid fa-circle-check"></i> Ads:Meta ads & Google ads</p>
+            <p><i class="fa-solid fa-circle-check"></i> Review & Rating Services</p>
+            <p><i class="fa-solid fa-circle-check"></i> Social media management</p>
+           @*  <p><i class="fa-solid fa-circle-check"></i> Website Development</p> *@
+        </div>
+        <div class="dvi1">
+            <h4>Address</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Uttar Pradesh, India</p>
+            <p><i class="fa-solid fa-mobile-button"></i> +91 0123456789</p>
+            <p class="hide">
+                <i class="fa-solid fa-envelope"></i> support@aumiksha.com
+            </p>
+        </div>
+    </footer>
+    <b-footer>
+        <p>
+            ©Copyright 2024 <a asp-action="AdminLogin">Aumiksha.</a> All Rights Reserved | Developed by <a href="https://accessauthority.netlify.app/">Suresh Kumar</a>
+        </p>
+    </b-footer>
+    <!-- Js  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const modal = document.getElementById("feedbackModal");
+            const btn = document.querySelector(".btn-f");
+            const span = document.getElementById("closeModal");
+            const form = document.getElementById("feedbackForm");
+
+            btn.onclick = () => {
+                modal.style.display = "block";
+            }
+
+            span.onclick = () => {
+                modal.style.display = "none";
+            }
+
+            window.onclick = (event) => {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            form.onsubmit = (event) => {
+                event.preventDefault();
+                // Handle form submission logic here
+                alert("Feedback submitted! Thank you!");
+                modal.style.display = "none";
+                form.reset();
+            }
+        });
+
+        function setActive(link) {
+            // Remove 'active' class from all links
+            const links = document.querySelectorAll('.n-col2 a');
+            links.forEach((item) => {
+                item.classList.remove('active');
+            });
+
+            // Add 'active' class to the clicked link
+            link.classList.add('active');
+        }
+
+        // Mobile Nav bar
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            const navClose = document.querySelector('.nav-close');
+            const navLinks = document.querySelectorAll('.nav-list a');
+
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.add('active');
+            });
+
+            navClose.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                });
+            });
+        });
+
+    </script>
+    <script>
+        // Prevent going back to the login page after logout
+        window.history.pushState(null, '', window.location.href);
+        window.onpopstate = function () {
+            window.history.pushState(null, '', window.location.href);
+        };
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
