@@ -36,7 +36,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/digital-marketing-agency.git
+   git clone https://github.com/AccessAuthority/Aumiksha-Digital-Marketing-Agency.git
    cd digital-marketing-agency
    ```
 
