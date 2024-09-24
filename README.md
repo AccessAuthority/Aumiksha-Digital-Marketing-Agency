@@ -29,7 +29,7 @@ This project is a digital marketing agency website developed using ASP.NET Core 
 - **JavaScript**: For client-side interactivity and animations.
 - **Entity Framework Core**: ORM for database interactions.
 - **SQL Server**: Database for storing feedback data.
-
+## Checkout the Website
 ## Installation
 
 To set up the project locally, follow these steps:
