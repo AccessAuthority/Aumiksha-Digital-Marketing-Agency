@@ -83,10 +83,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For inquiries, please contact:
 
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Name**: Suresh Kumar
+- **Email**: accessauthority.business@gmail.com
+- **GitHub**: [Accessauthority](https://github.com/accessauthority)
 
 ---
 
-Feel free to replace placeholder text (like your GitHub username and contact info) and add any additional sections that may be relevant to your project!
