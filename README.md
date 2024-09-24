@@ -37,7 +37,7 @@ To set up the project locally, follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/AccessAuthority/Aumiksha-Digital-Marketing-Agency.git
-   cd digital-marketing-agency
+   cd Aumiksha-Digital-Marketing-Agency
    ```
 
 2. **Install Dependencies**:
